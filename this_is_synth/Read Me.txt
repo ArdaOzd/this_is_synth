@@ -1,0 +1,20 @@
+This is a synthesizer that analyzes the sound samples in Sounds folder to create synthesize the given MIDI files to wav files through synth functions in functions folder.
+MIDI files are analyzed with the functions in private folder. The credits are given in the .m files for those functions.
+Only synth functions are created by me for a school project which are the functions in the functions folder (except the external functions folder). 
+The main focus was given to the sounds with harmonic sounds, but the percussion analysis is roughly done (needs a lowpass filter at the end of the perc synthesis, but somehow NaN values are resulted, so it is omitted).
+There are comments in the codes, also read the word document for more information.
+Currently, I am not planning to update the functions.
+Everyone is welcome to do whatever they want with the four functions in the functions folder.
+
+
+Some Info
+
+- Functions are in the functions folder
+
+- Requires Signal Processing toolbox
+
+- Add all folders of this_is_synth to path
+
+- Run file_selector_for_extractor.m to get the power spectrums and envelops (they are already there)
+
+- Run main.m to synthesize the song
